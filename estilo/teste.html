@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Pessoal de Tecnologia</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        header {
+            background: url('https://via.placeholder.com/1600x400') no-repeat center center/cover;
+            height: 400px;
+            text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            background-color: #1f1f1f;
+            display: flex;
+            justify-content: center;
+            padding: 1em;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 1em;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2em;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .dark-bg {
+            background-color: #2a2a2a;
+            padding: 2em;
+            margin-top: 2em;
+        }
+        footer {
+            background-color: #1f1f1f;
+            text-align: center;
+            padding: 1em;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site de Tecnologia</h1>
+        <p>Explorando o Futuro da Tecnologia</p>
+    </header>
+    <nav>
+        <a href="#about">Sobre</a>
+        <a href="#projects">Projetos</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Sou um entusiasta de tecnologia com paixão por inovações e tendências no mundo digital. Com anos de experiência em desenvolvimento de software, adoro explorar novas tecnologias e compartilhar meu conhecimento.</p>
+    </section>
+    <section id="projects" class="dark-bg">
+        <h2>Projetos</h2>
+        <p>Aqui estão alguns dos meus projetos recentes:</p>
+        <ul>
+            <li><strong>Projeto 1:</strong> Descrição do projeto 1.</li>
+            <li><strong>Projeto 2:</strong> Descrição do projeto 2.</li>
+            <li><strong>Projeto 3:</strong> Descrição do projeto 3.</li>
+        </ul>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Confira meus últimos posts no blog:</p>
+        <ul>
+            <li><strong>Post 1:</strong> Título do post 1.</li>
+            <li><strong>Post 2:</strong> Título do post 2.</li>
+            <li><strong>Post 3:</strong> Título do post 3.</li>
+        </ul>
+    </section>
+    <section id="contact" class="dark-bg">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo através do formulário abaixo:</p>
+        <form>
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Mensagem:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Meu Site de Tecnologia. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
